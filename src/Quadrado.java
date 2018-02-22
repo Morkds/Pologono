@@ -15,6 +15,9 @@ public class Quadrado {
         this.lado = lado;
     }
     
+    public Reta getLado(){
+        testeee
+    }
     
     
     
