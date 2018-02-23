@@ -16,9 +16,14 @@ public class Quadrado {
     }
     
     public Reta getLado(){
-        testeee
+        return lado;
     }
     
+    public Double getArea(){
+        return lado.getTamanho() * lado.getTamanho();
+    }
     
-    
+    public Double getPerimetro(){
+        return lado.getTamanho() * 4;
+    }
 }
