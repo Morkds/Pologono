@@ -11,21 +11,22 @@
 public class Reta {
     private Ponto p1;
     private Ponto p2;
-    private Double tamanho;
+    private Double tamanho = Double.NaN;
     
     public Reta(Ponto p1, Ponto p2){
-        this.p1 = p1; this.p2 = p2;
+        this.p1 = p1; 
+        this.p2 = p2;
     }
     
-    public Ponto getP1(Ponto p1){
-        return this.p1;
+    public Ponto getP1(){
+        return p1;
     }
-    public Ponto getP2(Ponto p2){
-        return this.p2;
+    
+    public Ponto getP2(){
+        return p2;
     }
     
     public Double getTamanho(){
-        return this.p1.getDistancia(this.p2);
+        return p1.getDistancia(p2);
     }
-     
 }
