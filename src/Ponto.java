@@ -59,12 +59,12 @@ public class Ponto {
                 + Math.pow(p.gety()-this.y,2));
     }
      
-    public static void main (String args []){
-        Ponto p1 = new Ponto(3.8, -5.2);
-        System.out.println(p1.getLocalizacao());
-        Ponto p2 = new Ponto();
-        System.out.println(p2.getLocalizacao());
-        System.out.println(p1.getDistancia(p2));
-    }
+//    public static void main (String args []){
+//        Ponto p1 = new Ponto(3.8, -5.2);
+//        System.out.println(p1.getLocalizacao());
+//        Ponto p2 = new Ponto();
+//        System.out.println(p2.getLocalizacao());
+//        System.out.println(p1.getDistancia(p2));
+//    }
 }
 
